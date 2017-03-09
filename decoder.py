@@ -3,7 +3,7 @@ import pyaudio
 import numpy as np
 import math
 
-from airgap import FREQUENCY_STEP, PREAMBLE_FREQUENCY
+from serializer import FREQUENCY_STEP, PREAMBLE_FREQUENCY
 
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
